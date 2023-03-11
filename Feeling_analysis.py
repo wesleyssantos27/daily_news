@@ -14,7 +14,7 @@ SCORE_TAG_MEANINGS ={
 'NONE':'NONE: without polarity'
 }
 
-KEY = 'b9a2dc96eb49d8757b7bac4e0995e4f7' #TODO: Adicionar uma camada de seguranca. Talvez um config criptografado.
+KEY = 'adicionar aqui' #TODO: Adicionar uma camada de seguranca. Talvez um config criptografado.
 
 def feeling_analysis(text: str) -> str:
     url = "https://api.meaningcloud.com/sentiment-2.1"
