@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 countries = {'Brazil': 'br','United States': 'us', 'Portugal': 'pt'}
-apikey = 'c11a24beca4eb7e251c74ee5abd2f71e'
+apikey = 'adicionar aqui'
 
 news_df = pd.DataFrame(columns=['country','title','description','url','source_name'])
 
